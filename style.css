@@ -1,0 +1,66 @@
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #d5e1ef;
+}
+
+img {
+  width: 100%;
+}
+
+/* Layout */
+.main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #fff;
+  font-family: 'Outfit', sans-serif;
+  width: 320px;
+  height: 499px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.app .image-container {
+  padding-top: 1rem;
+  margin-bottom: 1.5em;
+  width: 288px;
+  margin: 0 auto 1.5rem;
+}
+
+.app .image-container .qr-image {
+  display: block;
+  border-radius: 10px;
+}
+
+.text-container {
+  width: 288px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app h1.heading {
+  font-size: 1.375rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1f314f;
+}
+
+.app p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  width: 256px;
+  color: #68778d;
+  margin: 0 auto;
+}
